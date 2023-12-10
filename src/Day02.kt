@@ -7,14 +7,7 @@ import kotlinx.serialization.modules.SerializersModule
 fun main() {
 
     fun part1(input: List<String>): Int {
-        for (line in input) {
-            // example
-            // Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
-            val set = Aoc.decodeFromString(Set.serializer(), " 3 blue, 4 red")
-            println(set)
 
-
-        }
         return 0
     }
 
